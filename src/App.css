@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  margin: 20px;
+  }
+  .task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  }
+  .task-item span {
+  flex-grow: 1;
+  margin-left: 10px;
+  }
+  button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #ff6b6b;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  }
+  button:hover {
+  background-color: #ff4c4c;
+  }
+  .filter button {
+    margin: 5px;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+    .filter button.active {
+    background-color: #4caf50;
+    color: white;
+    }
+    .filter button:not(.active):hover {
+    background-color: #ddd;
+    }
